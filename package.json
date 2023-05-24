@@ -1,0 +1,31 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsontoxml": "^1.0.3",
+    "@types/node": "^18.16.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "@typescript-eslint/no-explicit-any": "off",
+  "dependencies": {
+    "@types/google-spreadsheet": "^3.3.2",
+    "axios": "^1.4.0",
+    "discord.js": "^14.10.2",
+    "exceljs": "^4.3.0",
+    "googleapis": "^118.0.0",
+    "jsontoxml": "^1.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
